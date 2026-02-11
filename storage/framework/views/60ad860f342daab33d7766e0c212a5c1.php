@@ -1,0 +1,1 @@
+components.text-input<?php /**PATH /Applications/XAMPP/xamppfiles/htdocs/auth/storage/framework/views/16ca0fb3f5a9f77538456661cd45c85a.blade.php ENDPATH**/ ?>
