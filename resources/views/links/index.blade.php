@@ -104,7 +104,7 @@
                     <div class="p-6 hover:bg-gray-50">
                         <div class="flex items-start justify-between">
                             <div class="flex-1">
-                                <h4 class="text-lg font-medium text-gray-900">
+                                   <h4 class="text-lg font-medium text-gray-900">
                                     <a href="{{ $link->url }}" target="_blank" class="hover:text-blue-600 transition-colors">
                                         {{ $link->title }}
                                     </a>
