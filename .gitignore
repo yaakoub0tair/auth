@@ -10,3 +10,4 @@ node_modules
 database/database.sqlite
 /storage/*
 !/storage/app/public
+cookies.txt
