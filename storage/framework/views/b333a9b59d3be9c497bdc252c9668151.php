@@ -1,1 +1,0 @@
-<h1>ODIN</h1><?php /**PATH /Applications/XAMPP/xamppfiles/htdocs/auth/resources/views/components/application-logo.blade.php ENDPATH**/ ?>

@@ -1,1 +1,0 @@
-components.danger-button<?php /**PATH /Applications/XAMPP/xamppfiles/htdocs/auth/storage/framework/views/58aa2c74c32b6172545080dd06f03e3e.blade.php ENDPATH**/ ?>

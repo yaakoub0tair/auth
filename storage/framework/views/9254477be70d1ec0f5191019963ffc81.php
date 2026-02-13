@@ -1,1 +1,0 @@
-components.modal<?php /**PATH /Applications/XAMPP/xamppfiles/htdocs/auth/storage/framework/views/7fae1ed6c559b38542af8a0e7b873d8f.blade.php ENDPATH**/ ?>
