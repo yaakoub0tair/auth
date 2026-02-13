@@ -1,0 +1,9 @@
+@props(['messages'])
+
+@if ($messages && $messages->isNotEmpty())
+    <div {{ $attributes->merge(['class' => 'mt-2 text-sm text-red-600']) }}>
+        @foreach ($messages as $message)
+            {{ $message }}
+        @endforeach
+    </div>
+@endif
