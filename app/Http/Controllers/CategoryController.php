@@ -10,27 +10,29 @@ class CategoryController extends Controller
 {
     public function index()
     {
-        $categories = Auth::user()->categories()->withCount('links')->get();
+        $categories = Auth::user()->categories;
         return view('categories.index', compact('categories'));
     }
 
     public function store(Request $request)
     {
-        $request->validate([
-            'name' => 'required|string|max:255'
-        ]);
-
-        Auth::user()->categories()->create(['name' => $request->name]);
+        $request->validate(['name' => 'required']);
+        
+        $category = new Category();
+        $category->name = $request->name;
+        $category->user_id = Auth::id();
+        $category->save();
+        
         return redirect()->back()->with('success', 'Catégorie créée');
     }
 
     public function update(Request $request, Category $category)
     {
-        $request->validate([
-            'name' => 'required|string|max:255'
-        ]);
-
-        $category->update(['name' => $request->name]);
+        $request->validate(['name' => 'required']);
+        
+        $category->name = $request->name;
+        $category->save();
+        
         return redirect()->back()->with('success', 'Catégorie mise à jour');
     }
 
