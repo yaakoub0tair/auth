@@ -8,3 +8,5 @@ node_modules
 /storage/logs/*
 /bootstrap/cache/*
 database/database.sqlite
+/storage/*
+!/storage/app/public
