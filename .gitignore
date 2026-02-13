@@ -14,19 +14,5 @@ node_modules
 /storage/framework/testing/*
 /storage/framework/views/*
 /storage/logs/*
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
+/bootstrap/cache/*
+database/database.sqlite
