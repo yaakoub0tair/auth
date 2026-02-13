@@ -104,7 +104,11 @@
                     <div class="p-6 hover:bg-gray-50">
                         <div class="flex items-start justify-between">
                             <div class="flex-1">
+<<<<<<< HEAD
                                    <h4 class="text-lg font-medium text-gray-900">
+=======
+                                <h4 class="text-lg font-medium text-gray-900">
+>>>>>>> 3eb85aa (feat(view): add Blade views for link management)
                                     <a href="{{ $link->url }}" target="_blank" class="hover:text-blue-600 transition-colors">
                                         {{ $link->title }}
                                     </a>
